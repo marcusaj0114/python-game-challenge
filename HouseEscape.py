@@ -121,13 +121,14 @@ class FirstFloor(Scene):
              is stubborn but couldn't care less.
 
              This is the house layout:
-
-                      / \
-                     /   \  
-                    /     \(RoofTop)
-                   /       \--------
-                  / (Attic) \
-                 /-----------\
+             """))
+        print("""
+                      / \\
+                     /   \\  
+                    /     \\(RoofTop)
+                   /       \\--------
+                  / (Attic) \\
+                 /-----------\\
                  |           |
                  | (Second)  |
                  |-----------|
@@ -140,13 +141,12 @@ class FirstFloor(Scene):
              |    (FirstFloor)    |
              |--------------------|  (StartDoor)
              |                    |----------------
-
-
-
+             """)
+        print(dedent("""
              You are going upstairs but Mom stops you. "Where are you going young man?"
              You have 3 things to say to convince her. Be careful, just because a simple choice
              is obvious, doesn't mean it would always work. Would your choice be to run, use the
-             bathroom, or see your cousins.
+             bathroom, or see your cousins. You can only say one word or number throughout the game.
              """))
 
         # This action calles in an input for the players to choose, in this case either run, bathroom or cousins
